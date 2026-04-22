@@ -28,6 +28,6 @@ public class ProcesadorPedidos {
     public static void main(String[] args) { 
         ProcesadorPedidos p = new ProcesadorPedidos(); 
         p.procesar(10, "ACTIVO"); 
-        System.out.println("Impuesto: " + p.calcularImpuesto()); 
+        System.out.println("Impuesto Calculado: " + p.calcularImpuesto()); 
     } 
 } 
