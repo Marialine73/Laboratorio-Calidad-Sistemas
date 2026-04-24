@@ -3,6 +3,8 @@ import java.util.*;
 public class ProcesadorPedidos { 
     // Defecto: Cumplimiento de estándares (Nombres no descriptivos) 
     private int cp;  
+    private int prueba;
+
     private String est;  
  
     public void procesar(int cantidad, String estado) { 
